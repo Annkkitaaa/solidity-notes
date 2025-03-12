@@ -8,6 +8,9 @@
     //address 
     //bytes
     bool public hasFavoriteNumber = false;
+
+    // this gets intialized to zero!
+    // <-- this mean that thia section is a comment 
     uint public favoriteNumber;
 
     function store(uint _favNum ) public {
@@ -17,6 +20,7 @@
 
     }
 
+    //view pure
     function retrieve() public view returns (bool, uint){
         return (hasFavoriteNumber, favoriteNumber );
 
