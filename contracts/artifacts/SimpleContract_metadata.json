@@ -6,29 +6,21 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "favoriteNumber",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_favoriteNumber",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "hasFavoriteNumber",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -43,31 +35,13 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "favouriteNumber",
+						"name": "favoriteNumber",
 						"type": "uint256"
 					},
 					{
 						"internalType": "string",
 						"name": "name",
 						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "retrieve",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -100,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SimpleStorage.sol": "SimpleStorage"
+			"contracts/SimpleContract.sol": "SimpleContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -114,12 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x2f1ef246e635b73d8dbcbec149eeaf35883b22045a98662e2f2cca666d1795a2",
+		"contracts/SimpleContract.sol": {
+			"keccak256": "0x303f502a109417e90f731f7e6530b272a8c374ca62b4d2d96e35b4ace6ebb306",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5bd8ec099d195fe09071ad4631e7c3bc28fe60c4cddbbfe3ff0c2a7c4204b480",
-				"dweb:/ipfs/QmVocr4SgARna9BdaiKZovvkmmSaRsVXc1PDAQW4LZCnZ6"
+				"bzz-raw://d3693a95e28c368c6c30844919853b57898fbd6f82b0f5ae06c7bdb96f8c9a4c",
+				"dweb:/ipfs/QmckNYDWHK9neRmQRbHbXWgLjAek6tJsbdUT6ufNph2xLu"
 			]
 		}
 	},
